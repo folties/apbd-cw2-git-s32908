@@ -2,9 +2,9 @@ namespace RentalService.Entities;
 
 public class Student : User
 {
-    public string StudentNumber { get; set; }
+    public int StudentNumber { get; set; }
 
-    public Student(string name, string surname, string studentNumber) : base(name, surname)
+    public Student(string name, string surname, int studentNumber) : base(name, surname)
     {
         StudentNumber = studentNumber;
     }

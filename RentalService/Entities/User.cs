@@ -3,7 +3,7 @@ namespace RentalService.Entities;
 public abstract class User
 {
     private static int id = 1;
-    public static int Id {get; set;}
+    public int Id {get; set;}
     public string Name {get; set;}
     public string Surname {get; set;}
 
