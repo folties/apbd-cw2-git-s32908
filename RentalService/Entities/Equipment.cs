@@ -2,7 +2,7 @@ namespace RentalService.Entities;
 
 public abstract class Equipment
 {
-    private static int id = 1;
+    private static int nextID = 1;
 
     public int Id { get; }
     public string Name { get; set; }
@@ -10,7 +10,7 @@ public abstract class Equipment
     public bool MarkedAsUnavailable { get; set; }
 
     protected Equipment(string name){
-        Id = Id++;
+        Id = nextID++;
         Name = name;
         IsAvailable = true;
         MarkedAsUnavailable = false;
