@@ -24,3 +24,14 @@ This made it easier to change parts of the program without breaking everything
 I tried to keep each class focused on one task, like `ReportService` only printing summaries.  
 Services use other classes instead of doing everything in one place, which reduces dependency between parts.  
 This made the code more organized and easier to understand while I was working on it
+
+
+## How to run the project
+1. Clone the repository:
+   git clone https://github.com/folties/apbd-cw2-git-s32908.git
+
+2. Open the project in an IDE
+
+3. Run the application using the Run button
+
+The program will display how it works in the console
